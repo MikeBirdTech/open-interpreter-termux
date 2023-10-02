@@ -5,20 +5,15 @@ echo "Starting the Termux setup..."
 
 # Update and upgrade the package list
 echo "Updating and upgrading package lists..."
-pkg update && pkg upgrade -y
+pkg update -y && pkg upgrade -y
 
-# Install pip via Python
-echo "Installing Python and pip..."
-pkg install -y python
-
-# Install Rust and binutils
-echo "Installing Rust and binutils..."
-pkg install -y rust
-pkg install -y binutils
+# Install python, rust, binutils, and termux-api
+echo "Installing required packages..."
+pkg install -y python rust binutils termux-api
 
 # Install Python packages via pip
 echo "Installing Python packages..."
-pip install open-interpreter
+pip install ruamel.yaml==0.16.12 jinja2 open-interpreter
 
 # Display a completion message
-echo "Setup completed successfully. You can now use Python, Rust, and open-interpreter."
+echo "Setup completed successfully. You can now use Open Interpreter."
