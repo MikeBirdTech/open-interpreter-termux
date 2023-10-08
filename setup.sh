@@ -9,7 +9,7 @@ pkg update -y && pkg upgrade -y
 
 # Install python, rust, binutils, and termux-api
 echo "Installing required packages..."
-pkg install -y python rust binutils termux-api
+pkg install -y python rust cmake binutils termux-api
 
 # Install Python packages via pip
 echo "Installing Python packages..."
