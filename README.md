@@ -2,6 +2,7 @@
 
 - Install [Termux](https://github.com/termux/termux-app/releases/tag/v0.118.0)
 - Install [Termux:API](https://github.com/termux/termux-api-package/releases/tag/v0.57)
+- In Termux, `pkg install termux-api`
 - Open Termux and run the following single command to set up Open Interpreter:
   ```bash
   pkg update -y && pkg upgrade -y && pkg install git -y && git clone https://github.com/Arrendy/open-interpreter-termux && cd open-interpreter-termux && sh setup.sh
