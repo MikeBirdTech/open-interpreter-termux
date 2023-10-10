@@ -1,7 +1,7 @@
 # Termux Setup for Open Interpreter
 
 - Install [Termux](https://github.com/termux/termux-app/releases/tag/v0.118.0)
-- Install [Termux:API](https://github.com/termux/termux-api-package/releases/tag/v0.57)
+- Install [Termux:API](https://github.com/termux/termux-api/releases/tag/v0.50.1) APK
 - In Termux, `pkg install termux-api`
 - Open Termux and run the following single command to set up Open Interpreter:
   ```bash
