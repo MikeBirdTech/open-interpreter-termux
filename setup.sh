@@ -13,7 +13,7 @@ pkg install -y python rust cmake binutils termux-api
 
 # Install Python packages via pip
 echo "Installing Python packages..."
-pip install ruamel.yaml==0.16.12 jinja2 open-interpreter
+pip install ruamel.yaml==0.16.12 jinja2 open-interpreter==0.1.8
 
 # Display a completion message
 echo "Setup completed successfully. You can now use Open Interpreter."
