@@ -8,20 +8,47 @@
 
 _Note: This takes a long time_
 
-    ```bash
-    yes | pkg update
+Update packages and sources
 
-    yes | pkg install termux-api python-pip cmake ninja patchelf build-essential matplotlib rust binutils libzmq
+```bash
+yes | pkg update
+```
 
-    pip install numpy open-interpreter
-    ```
+Install required packages
 
-- Run `termux-setup-storage` twice to grant storage permissions.
+```bash
+yes | pkg install termux-api python-pip cmake ninja patchelf build-essential matplotlib rust binutils libzmq
+```
+
+Allow storage permissions for termux after running:
+
+```bash
+termux-setup-storage
+```
 
 _Note: Android will ask you to grant permission after the first time which causes the command to not succeed initially_
 
-- Set your OpenAI API key: `export OPENAI_API_KEY=<apikey>`
+So run the same command again and say 'Yes'
 
-- Start Open Interpreter: `interpreter`
+```bash
+termux-setup-storage
+```
+
+Install open interpreter
+
+```bash
+pip install open-interpreter
+```
+
+Set your OpenAI API key:
+
+```bash
+export OPENAI_API_KEY=<apikey>
+```
+
+Start Open Interpreter
+```bash
+interpreter
+```
 - ...
 - Profit
