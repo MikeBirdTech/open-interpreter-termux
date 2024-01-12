@@ -1,4 +1,9 @@
-# Termux Setup for Open Interpreter
+# [Open Interpreter](https://github.com/KillianLucas/open-interpreter) on Android
+
+Follow these instructions for installing Open Interpreter on your Android device. [Termux](https://termux.dev/en/) is an Android terminal emulator and Linux environment app that works directly with no rooting or setup required. This is where Open Interpreter will be installed and interacted with.
+
+---
+## Installation
 
 - Install [Termux](https://github.com/termux/termux-app/releases/tag/v0.118.0)
 
@@ -52,3 +57,20 @@ interpreter
 ```
 - ...
 - Profit
+
+Note, `OS mode` is not currently supported on Android
+
+---
+
+## Considerations
+When running `interpreter --config` a `config.yaml` may be created in `~/Downloads`. This is *not* the config file used by Open Interpreter. This is due to how Android/Termux handles opening files.
+
+In order to update your Open Interpreter config file, you need to edit the one located in `/data/data/com.termux/files/home/.config/Open Interpreter/`
+
+---
+
+## Example Uses
+
+Check out these posts for examples of how Open Interpreter can be used on your Android
+- [One](https://x.com/MikeBirdTech/status/1707108619529916820)
+- [Two](https://x.com/MikeBirdTech/status/1711798317288419382)
