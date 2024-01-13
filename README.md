@@ -79,6 +79,10 @@ You may get an error saying that Termux cannot use external applications. You ne
 - uncomment `allow-external-apps` property
 - save file
 
+### Exiting the Chat
+
+In order to exit the chat, you need to press `control + c`. In some instances, this will halt the current process Open Interpreter is running but will not exit the interactive chat. Pressing `control + c` a second time will exit the chat.
+
 ---
 
 ## Example Uses
