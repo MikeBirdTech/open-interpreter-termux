@@ -5,6 +5,7 @@
 
 以下の手順に従って、AndroidデバイスにOpen Interpreterをインストールしましょう。[Termux](https://termux.dev/en/)は、root化や特別な設定なしで直接使えるAndroid用ターミナルエミュレータおよびLinux環境アプリです。Open InterpreterはここにインストールされTermux上で操作します。
 
+
 <div align="center">
 
  | [日本語](README_JP.md) | [English](../README.md) |
