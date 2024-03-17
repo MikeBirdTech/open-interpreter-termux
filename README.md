@@ -2,6 +2,12 @@
 
 Follow these instructions for installing Open Interpreter on your Android device. [Termux](https://termux.dev/en/) is an Android terminal emulator and Linux environment app that works directly with no rooting or setup required. This is where Open Interpreter will be installed and interacted with.
 
+<div align="center">
+
+ | [日本語](docs/README_JP.md) | [English](README.md) |
+
+</div>
+
 ---
 
 ## Installation
